@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Lato', sans-serif;
+}
+
+.header{
+    background-image: url(/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin-bottom: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    outline: none;
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: #4088AA;
+    color: azure;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.input_aria{
+    height: 50px;
+    width: 200px;
+    border-radius:35px;
+    outline: none;
+}
+.buttom_modal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0rem;
+
+    margin-bottom: 2rem;
+}
+
+.left{
+    margin-right: 1rem;
+}
+
+.right{
+    margin-left: 1rem;
+}
+
+.hidden{
+  display: none;
+}
+
+.log_out_button{
+    outline: none;
+    height: 50px;
+    width: 90px;
+    border: none;
+    background-color: #4088AA;
+    color: azure;
+    border-radius: 35px;
+    cursor: pointer;
+    
+}
+
+.move_button{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
